@@ -1,0 +1,12 @@
+.tableheaderflex{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    flex-wrap: wrap;
+}
+th{
+    padding:1em 2em;
+    background-color: rgb(13, 16, 170);
+    color: white;
+   
+   
+}

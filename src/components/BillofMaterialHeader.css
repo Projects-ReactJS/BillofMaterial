@@ -1,0 +1,9 @@
+.largecontainer{
+
+    width: 100%;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width:1900px;
+}

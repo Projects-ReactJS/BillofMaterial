@@ -1,0 +1,34 @@
+.actionbars{
+
+    display:flex;
+  
+    padding: 0 1em;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    flex-direction: row-reverse;
+    background-color: skyblue;
+    justify-content: flex-end;
+   
+  
+    
+
+}
+.button-const-attr{
+    padding: 1em 1.5em;
+    margin-right: 0.75em;
+    margin-bottom: 0px;
+    font-weight: bold;
+    
+}
+
+.create-bom{
+  order: 3;
+}
+
+.update-bom{
+    order: 2;
+  }
+  .delete-bom{
+    order: 1;
+    margin-right:0em;
+  }

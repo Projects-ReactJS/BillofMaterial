@@ -1,0 +1,67 @@
+.field{
+    padding:2em 4em;
+    display: flex;
+    flex-direction: column;
+    background-color:skyblue;
+}
+
+input[id="search"]{
+
+    width:100%;
+
+}
+input
+{
+
+    margin-right: 1em;
+    padding: 0.25em 1em;
+}
+label{
+    align-items: baseline;
+    margin-right:0.5em;
+    margin-bottom: 0.25em;
+}
+
+.search-control{
+    margin:1em;
+    display: flex;
+   
+
+}
+.field-controls{
+    margin-left: 1em;
+    display:flex;
+    width:100%;
+}
+.field-control{
+ 
+    display:flex;
+    width:15%;
+    flex-direction: column;
+}
+
+
+
+.btn-go{
+    align-items: flex-end;
+    text-transform: uppercase;
+    width:10em;   
+    border-style: none;
+
+}
+
+.search-field{
+display: flex;
+
+}
+
+.search-field > button{
+  z-index: 1;
+  position: relative;
+  right: 2.9em;
+  opacity: 0.75;
+  border-style: none;
+  background-color: rgb(13, 16, 170);
+  color:white;
+  cursor: pointer;
+}
