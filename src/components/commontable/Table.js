@@ -6,13 +6,10 @@ class Table extends React.Component{
 
     render(){
         return <div>
-        <table>
         <table className="table">
           
           <TableHeader/>
           <TableRow/>
-        </table>
-       
         </table>
             
         </div>;

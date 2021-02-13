@@ -2,7 +2,6 @@
     padding:2em 4em;
     display: flex;
     flex-direction: column;
-    background-color:skyblue;
 }
 
 input[id="search"]{
@@ -40,14 +39,19 @@ label{
     flex-direction: column;
 }
 
+input:focus{
+
+    background-color:#EEEEEE;
+}
 
 
 .btn-go{
     align-items: flex-end;
     text-transform: uppercase;
-    width:10em;   
-    border-style: none;
-
+    width:10em;
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
 .search-field{
@@ -58,10 +62,9 @@ display: flex;
 .search-field > button{
   z-index: 1;
   position: relative;
-  right: 2.9em;
+  right: 2.7em;
   opacity: 0.75;
   border-style: none;
-  background-color: rgb(13, 16, 170);
   color:white;
   cursor: pointer;
 }

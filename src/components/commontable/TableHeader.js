@@ -5,7 +5,7 @@ class TableHeader extends React.Component{
 
     render(){
         return  <thead>
-        <tr className="tableheaderflex">
+        <tr className="tableheaderflex w3-indigo">
           <th>BillOfMaterial</th>
           <th>BillOfMaterialCategory</th>
           <th>BillOfMaterialVariant</th>

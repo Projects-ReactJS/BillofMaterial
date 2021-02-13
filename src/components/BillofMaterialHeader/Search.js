@@ -4,13 +4,13 @@ import "./search.css";
 class Search extends React.Component{
 
     render(){
-        return <div className="field">
+        return <div className="field w3-indigo">
             <div className="search-control field-control">
             <label for="search"> Search</label>
             <div className="search-field">
             <input id="search"  maxLength="300">
             </input>
-            <button><i class="fa fa-search"></i></button>
+            <button class="w3-indigo"><i class="fa fa-search"></i></button>
             </div>
             </div>
             <div className="field-controls">
@@ -34,7 +34,7 @@ class Search extends React.Component{
             <label for="bomheadertext">BOMHeaderText</label>
             <input id="bomheadertext" type="text"></input>
             </div>
-            <button class="btn-go btn-background">go</button>
+            <button class="btn-go w3-indigo">go</button>
             
             </div>
            

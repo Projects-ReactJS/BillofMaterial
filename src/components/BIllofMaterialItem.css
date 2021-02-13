@@ -1,0 +1,7 @@
+.objpage-container{
+
+    display:flex;
+    grid-template-rows: (3,1fr);
+    border: 2px solid red;
+    gap:0px;
+}
