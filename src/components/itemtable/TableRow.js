@@ -1,25 +1,28 @@
 import React from 'react';
+
+
+
 import './TableRow.css';
-import { useHistory } from "react-router";
+
+class TableRow extends React.Component {
+	constructor(props) {
+		super();
+	
+	}
+
+	onclickrow = (evt) => {
+		
 
 
-
-function TableRow (props) {
-
-let history = useHistory();
-
-	function onclickrow(evt) {
-		console.log(evt);
-		history.push("/bomitem")
 		
 	};
 
-
-		const { header } = props.bomdata;
+	render() {
+		const header = false;
 		if (header) {
 			return header.map((item, index) => {
 				return (
-					<tr onClick={onclickrow} className="tableheaderflex row-features" key={index}>
+					<tr onClick={this.onclickrow} className="tableheaderflex row-features" key={index}>
 						<td>{item.BillOfMaterial}</td>
 						<td>{item.BillOfMaterialCategory}</td>
 						<td>{item.BillofMaterialVariant}</td>
@@ -35,6 +38,6 @@ let history = useHistory();
 			return <div className="no-data">No Data</div>;
 		}
 	}
-
+}
 
 export default TableRow;

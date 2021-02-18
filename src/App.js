@@ -11,13 +11,11 @@ class App extends React.Component{
       <Router> 
       <div>
       <CompanyLogo/>
-      <Switch>
       <Route path="/" exact component={BillofMaterialHeader}>
   
         </Route>
         <Route path="/bomitem"  component={BillofMaterialItem}>
         </Route>
-        </Switch>
       </div>
       </Router>
      
